@@ -14,7 +14,7 @@ RUN npm install
 # COPY . .
 
 # 開発サーバーを起動
-CMD ["npm", "run", "dev"]
+CMD ["sh", "-c", "npm install && npm run dev"]
 
 # ポートの公開
 EXPOSE 5177
