@@ -17,4 +17,4 @@ RUN npm install
 CMD ["npm", "run", "dev"]
 
 # ポートの公開
-EXPOSE 3000
+EXPOSE 5177

@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server: {
-    port: 3000,  // 使用するポート番号を指定
+    port: 5177,  // 使用するポート番号を指定
     host: '0.0.0.0',  // すべてのIPアドレスからアクセスを受け入れる
     watch: {
       usePolling: true,  // ファイル変更の検出をポーリング方式にする（特にDocker環境で必要）
